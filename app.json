@@ -1,0 +1,43 @@
+{
+    "name": "Musiqi yükləmə botu",
+    "description": "Bu bot youtubedən musiqi yükləmək üçündür.",
+    "logo": "https://img.freepik.com/free-psd/luxury-beauty-logo-mockup_4513-551.jpg?size=626&ext=jpg",
+    "stack": "container",
+    "keywords": [
+        "song",
+        "youtube",
+        "sahibi",
+        "cokepokes"
+    ],
+    "website": "www.instagram.com/cokepokesss",
+    "repository": "https://github.com/cokepokess",
+    "success_url": "https://t.me/cokepokess",
+    "env": {
+        "BOT_TOKEN": 
+            "description": "5083210468:AAGSq0y9iDPSHYFSJDcsUafscg2JWp0DvJk",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "fb95c19178dff8e5be224a79261cd19c",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "10908371",
+            "value": ""
+        }, 
+        "BOT_NAME": {
+            "description": "your Bot name ",
+            "value": "MusiqiBotu"
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "heroku/python"
+        }
+      ]
+   }
+    
